@@ -1,0 +1,13 @@
+server:
+  port: 8083
+app:
+  id: 2021011801
+apollo:
+  bootstrap:
+    # 注入默认namespace application.properties
+    enabled: true
+    # 注入非默认application namespace或多个namespace的配置示例，不同namespace存在相同配置时，以靠前的配置为准
+    namespaces: springboot.yml,application
+  meta: http://localhost:8080/
+  accesskey:
+    secret: fedb11626b134343be38b222346a97ce

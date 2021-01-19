@@ -1,0 +1,8 @@
+server:
+  port: 8082
+app:
+  id: 2021011801
+apollo:
+  meta: http://localhost:8080/
+  accesskey:
+    secret: fedb11626b134343be38b222346a97ce
